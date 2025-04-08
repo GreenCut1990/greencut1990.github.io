@@ -1,0 +1,408 @@
+body {
+    /*background-image: url(foto.fondo/greenCute1.png);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: 50px;
+    background-size: 500px 500px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    position: relative;
+    background: linear-gradient(135deg, #2E7D32, #4CAF50);
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+    overflow: hidden;
+}
+
+/* ------------------------------------------logo--------------------------------------------------*/
+
+.logo {
+    padding-right: 520px;
+    margin-bottom: -200px;
+}
+
+/*-----------------------------------------numero de telefonos------------------------------------*/
+
+.num {
+    padding-left: 620px;
+    margin-bottom: -93px;
+}
+
+.num1 {
+    padding-left: 455px;
+    padding-top: 45px;
+    margin-bottom: -45px;
+    
+}
+
+.num2 {
+    padding-left: 1090px;
+    margin-bottom: -10px;
+    
+}
+
+.num3 {
+    padding-left: 860px;
+    margin-bottom: -35px;
+    padding-bottom: -500px;
+    margin-top: -55px;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-out 0.3s both;
+}
+
+.contact-btn {
+    background-color: white;
+    color: #2E7D32;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation: pulse 2s infinite 1s;
+}
+
+.contact-btn:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    padding: 4rem 0;
+}
+
+.services {
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #4CAF50;
+    margin: 0.5rem auto;
+    border-radius: 2px;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.contact-form {
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    color: white;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    transition: background 0.3s ease;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input:focus, textarea:focus {
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+button[type="submit"] {
+    background: white;
+    color: #2E7D32;
+    padding: 0;
+}
+
+.pie {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background: linear-gradient(135deg, #2E7D32, #4CAF50);
+    padding: 15px;
+}
+
+
+/* ------------------Estilos para el botón flotante de WhatsApp--------------- */
+
+
+.float-wa{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius: 50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.float-wa:hover {
+    background-color: #128c7e;
+    /*background-color: green;*/
+    
+}
+
+/*.whatsapp-icon {
+    margin: 0;
+}*/
+
+
+/*--------------------------------------------------contacto---------------------------------------------*/
+
+.contacto {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.cont {
+    /*background-color: rgb(50, 86, 205)3, 186);*/
+    padding-top: 10px;
+    margin-right: 580px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 580px;
+    border-radius: 50px;
+    border-style: solid;
+}
+
+.tel {
+    text-align: center;
+    padding: 10px;
+}
+
+/*------------------------------------medios de pago-----------------------------------------*/
+
+.med {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*-------------------------------------------navegacion------------------------------------------*/
+
+.nav1 {
+    text-align: left;
+    margin-top: -20px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+}
+
+.nav {
+    padding-right: 1040px;
+}
+
+/*------------------------------------------foto de los costados---------------------------------*/
+
+.foto-1 {
+    margin-top: -600px;
+    padding-bottom: 60px;
+    margin-left: 10px;
+}
+
+.foto-2 {
+    margin-top: -540px;
+    padding-bottom: 60px;
+    padding-left: 860px;
+    margin-right: 10px;
+}
+
+/*---------------------------------------------------marquesina-----------------------------------*/
+
+.marquee {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+    background: whitesmoke;
+    color: black;
+    border: 1px solid orange;
+   }
+
+   .marquee p {
+       font-size: 20px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 30s linear infinite;
+ -webkit-animation: scroll-left 30s linear infinite;
+ animation: scroll-left 30s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+
+/*---------------------------------------pagina responsibe----------------------------------------------------*/
+
+@media (max-width: 768px){
+    body {
+        text-align: center;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .nav {
+        padding-left: -5px;
+        padding-bottom: 35px;
+    }
+    .nav1 {
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    .marquee p {
+        -moz-animation: scroll-left 10s linear infinite;
+        -webkit-animation: scroll-left 10s linear infinite;
+        animation: scroll-left 10s linear infinite;
+    }
+
+    .cont {
+        /*background-color: white;*/
+        padding-left: 300px;
+        margin-left: 200px;
+    }
+
+    .contacto {
+        margin-left: -300px;
+
+    }
+
+    .tel {
+        padding-left: 1px;
+        margin-left: -1px;
+    }
+
+    .num {
+        padding-left: 20px;
+    }
+
+    .num1 {
+        margin-left: -585;
+    }
+
+    .num2 {
+        padding-left: 450px;
+    }
+
+    .num3 {
+        padding-left: 250px;
+        padding-bottom: 1px;
+    }
+
+    .foto-1 {
+        display: none;
+    }
+
+    .foto-2 {
+        display: none;
+    }
+}
