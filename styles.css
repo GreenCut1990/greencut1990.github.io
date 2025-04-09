@@ -387,22 +387,26 @@ footer {
     }
 
     .num {
-        padding-left: 20px;
-        margin-left: -220px;
+        display: none;
+        /*padding-left: 20px;
+        margin-left: -220px;*/
     }
 
     .num1 {
-        margin-left: -800px;
+        display: none;
+        /*margin-left: -800px;*/
     }
 
     .num2 {
-        padding-left: 205px;
+        display: none;
+        /*padding-left: 205px;*/
     }
 
     .num3 {
-        padding-left: 2px;
+        display: none;
+        /*padding-left: 2px;
         padding-bottom: 1px;
-        margin-bottom: -30px;
+        margin-bottom: -30px;*/
     }
 
     .foto-1 {
@@ -427,5 +431,11 @@ footer {
         font-size:30px;
         box-shadow: 2px 2px 3px #999;
         z-index:100;
+    }
+
+    .pi {
+        display: flex;
+        padding-left: 20%;
+        color: whitesmoke;
     }
 }
