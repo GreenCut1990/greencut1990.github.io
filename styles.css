@@ -24,36 +24,73 @@ header {
 /* ------------------------------------------logo--------------------------------------------------*/
 
 .logo {
-    padding-right: 520px;
+    /*padding-right: 520px;*/
+    padding-right: 600px;
     margin-bottom: -200px;
 }
 
 /*-----------------------------------------numero de telefonos------------------------------------*/
 
 .num {
-    padding-left: 620px;
-    margin-bottom: -93px;
+    /*padding-left: 699px;*/
+    /*margin-left: 100px;
+    margin-bottom: -190px;
+    padding-bottom: -3rem;
+    padding-left: 15rem;*/
+    padding-left: 400px;
+    margin-bottom: -78px;
+   
+
 }
 
 .num1 {
-    padding-left: 455px;
-    padding-top: 45px;
-    margin-bottom: -45px;
+    margin-bottom: -30px;
     
 }
 
+.num1-1 {
+    /*padding-left: 458px;*/
+    /*padding-top: 110px;
+    margin-bottom: -59px;
+    padding-left: 9rem;*/
+    /*width: 10px;
+    height: 50px;*/
+    max-width: 3.5%;
+    padding-left: 50px;
+    margin-bottom: -18px;
+    margin-right: -140px;
+}
+
 .num2 {
-    padding-left: 1090px;
-    margin-bottom: -10px;
+    /*padding-left: 1090px;*/
+    /*margin-bottom: -5px;
+    padding-bottom: 1rem;
+    padding-left: 59rem;*/
+    padding-left: 999px;
+    margin-bottom: -74px;
+    
     
 }
 
 .num3 {
-    padding-left: 860px;
-    margin-bottom: -35px;
-    padding-bottom: -500px;
-    margin-top: -55px;
+    /*padding-left: 820px;*/
+    /*margin-bottom: -35px;
+    padding-bottom: -507px;
+    margin-top: -63px;
+    padding-left: 42rem;*/
+    padding-left: 30px;
+    margin-bottom: -30px;
+
+   
 }
+
+.num3-1{
+    padding-left: 680px;
+    max-width: 3.5%;
+    margin-bottom: -20px;
+    
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -234,18 +271,21 @@ footer {
     text-align: center;
     padding-bottom: 20px;
     padding-top: 10px;
+    padding-left: 1px;
 }
 
-.cont {
-    /*background-color: rgb(50, 86, 205)3, 186);*/
+/*.cont {
+    /*background-color: rgb(50, 86, 205)3, 186);
     padding-top: 10px;
     margin-right: 580px;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 580px;
+    margin-left: 50px;
+    padding-right: 500px;
     border-radius: 50px;
     border-style: solid;
-}
+    /padding-left: 50px;
+}*/
 
 .tel {
     text-align: center;
@@ -278,11 +318,11 @@ footer {
 .foto-1 {
     margin-top: -600px;
     padding-bottom: 60px;
-    margin-left: 10px;
+    margin-left: -880px;
 }
 
 .foto-2 {
-    margin-top: -540px;
+    margin-top: -537px;
     padding-bottom: 60px;
     padding-left: 860px;
     margin-right: 10px;
@@ -342,8 +382,16 @@ footer {
     display: none;
 }
 
+.resolucion {
+    width: 100%;
+    text-align: center;
+}
 
-/*---------------------------------------pagina responsibe----------------------------------------------------*/
+/*---------------------------------------pagina responsive----------------------------------------------------*/
+
+
+
+
 
 @media (max-width: 768px){
     body {
